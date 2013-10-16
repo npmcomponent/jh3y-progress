@@ -1,0 +1,17 @@
+{
+  "name": "progress-line",
+  "repo": "jheytompkins/progress-line",
+  "description": "A progress line component.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "progress-line.css"
+  ]
+}
