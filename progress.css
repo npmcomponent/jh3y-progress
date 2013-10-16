@@ -1,0 +1,11 @@
+.progress {
+	height: 4px;
+	width: 100%;
+}
+.progress-indicator {
+	height: 100%;
+	width: 0%;
+	-webkit-transition: width 1s;
+	transition: width 1s;
+	opacity: 0.2;
+}
