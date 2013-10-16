@@ -1,5 +1,5 @@
 
-build: components index.js progress-line.css
+build: components index.js progress.css
 	@component build --dev
 
 components: component.json

@@ -1,5 +1,5 @@
 
-# progress-line
+# progress
 
   A progress line component.
 
@@ -7,7 +7,7 @@
 
   Install with [component(1)](http://component.io):
 
-    $ component install jheytompkins/progress-line
+    $ component install jheytompkins/progress
 
 ## API
 

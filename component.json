@@ -1,6 +1,6 @@
 {
-  "name": "progress-line",
-  "repo": "jheytompkins/progress-line",
+  "name": "progress",
+  "repo": "jheytompkins/progress",
   "description": "A progress line component.",
   "version": "0.0.1",
   "keywords": [],
@@ -12,6 +12,6 @@
     "index.js"
   ],
   "styles": [
-    "progress-line.css"
+    "progress.css"
   ]
 }
