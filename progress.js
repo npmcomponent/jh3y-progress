@@ -219,12 +219,14 @@ progress.prototype._create = function () {
 }
 progress.prototype.setProgress = function (progress) {
 	if (progress !== undefined && typeof(progress) === 'number' && progress <= 100 && progress >= 0) {
-		this.element.querySelector('.progress-indicator').style.width = progress + '%';	
+		this.element.querySelector('.progress-indicator').style.width = progress + '%';
+		this._progress = progress;	
 	}
 }
 progress.prototype.setColor = function (color) {
 	if (color !== undefined && typeof(color) === 'string') {
 		this.element.querySelector('.progress-indicator').style.background = color;	
+		this._color = color;
 	}	
 }
 });
