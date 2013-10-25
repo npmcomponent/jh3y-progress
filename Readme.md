@@ -34,7 +34,7 @@ Set the progress of the line by providing a number(percent) of the line to fill.
 
 ###setColor(string color)
 
-Set the color of the progress line by providing a string, either supported color name such as  `red` or hexidecimal value such as `#0000FF'. By default the progress line is set to green.
+Set the color of the progress line by providing a string, either supported color name such as  `red` or hexidecimal value such as `#0000FF`. By default the progress line is set to green.
 
 ## License
 
