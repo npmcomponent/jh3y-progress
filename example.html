@@ -7,11 +7,26 @@
 	<script src="build/build.js"></script>
 </head>
 <body>
-	<h4>progress.</h4>
-	<script>
+	<div class='progress-container'></div>
+	<h4>progress demo.</h4>
+	<input type="text" class="set-progress"></input>
+	<button class="sprog">set progress.</button>
+	<input type="text" class="set-color"></input>
+	<button class="scol">set color.</button>
+	<script type="text/javascript">
+
 		var progress = require('progress');
 		var myProgress = new progress();
-		document.body.appendChild(myProgress.element);
+		document.querySelector('.progress-container').appendChild(myProgress.element);
+
+		document.querySelector('.sprog').addEventListener('click', function () {
+			var progressToSet = document.querySelector('.set-progress').value;
+			myProgress.setProgress(parseInt(progressToSet, 10));
+		});
+		document.querySelector('.scol').addEventListener('click', function () {
+			var colorToSet = document.querySelector('.set-color').value;
+			myProgress.setColor(colorToSet);
+		});
 	</script>
 </body>
 </html>
