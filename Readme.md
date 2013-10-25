@@ -1,4 +1,3 @@
-
 # progress
 
   A very minimal progress line component much like seen in modern UIs. Compatible with [component package manager](https://github.com/component/component).
@@ -29,11 +28,11 @@ Refer to the [demo](http://jsfiddle.net/T5P44/1/) or message me if you're stuck 
 
 ## API
 
-#setProgress(number progress)
+###setProgress(number progress)
 
 Set the progress of the line by providing a number(percent) of the line to fill. This should be between 0 and 100.
 
-#setColor(string color)
+###setColor(string color)
 
 Set the color of the progress line by providing a string, either supported color name such as  `red` or hexidecimal value such as `#0000FF'. By default the progress line is set to green.
 
