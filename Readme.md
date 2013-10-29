@@ -18,11 +18,13 @@ Use with or without [component package manager](https://github.com/component/com
 
 	var progress = require('progress') //ONLY REQUIRED IF USING COMPONENT PACKAGE MANAGER
 
-Only use the above if using with the [component package manager](https://github.com/component/component), else simply do something like the following;
+Only use the above if using with the [component package manager](https://github.com/component/component), else simply include [progress.js](https://github.com/jheytompkins/progress/blob/master/progress.js) and do something like the following;
 
 	var myProgress = new progress('red'); // create a red progress line
 	document.querySelector('.someContainer').appendChild(myProgess.element); // add it to the page
 	myProgress.setProgress(5); // set it to 5% just to get it started.
+
+Don't forget to include [progress.css](https://github.com/jheytompkins/progress/blob/master/progress.css)!
 
 Refer to the [demo](http://jsfiddle.net/T5P44/1/) or message me if you're stuck :)
 
