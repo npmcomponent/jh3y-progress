@@ -2,23 +2,31 @@
 
   A very minimal progress line component much like seen in modern UIs. Compatible with [component package manager](https://github.com/component/component).
 
-## Demo
+## demo
 	
 A demo of progress can be seen [here](http://jsfiddle.net/T5P44/1/).
 
-## Installation
+## installation
 
   Install with [component(1)](http://component.io):
 
     $ component install jheytompkins/progress
 
-## Usage
-
-Use with or without [component package manager](https://github.com/component/component). Simply create your progress line and append its element to a container of your choice.
+## usage
+Use with or without [component package manager](https://github.com/component/component).
+###use with [component package manager](https://github.com/component/component)
+Simply create your progress line and append its element to a container of your choice.
 
 	var progress = require('progress') //ONLY REQUIRED IF USING COMPONENT PACKAGE MANAGER
+	var myProgress = new progress('red'); // create a red progress line
+	document.querySelector('.someContainer').appendChild(myProgess.element); // add it to the page
+	myProgress.setProgress(5); // set it to 5% just to get it started.
 
-Only use the above if using with the [component package manager](https://github.com/component/component), else simply include [progress.js](https://github.com/jheytompkins/progress/blob/master/progress.js) and do something like the following;
+Don't forget to include [progress.css](https://github.com/jheytompkins/progress/blob/master/progress.css)!
+
+Refer to the [demo](http://jsfiddle.net/T5P44/1/) or message me if you're stuck :)
+###use without component package manager
+Simply create your progress line and append its element to a container of your choice.
 
 	var myProgress = new progress('red'); // create a red progress line
 	document.querySelector('.someContainer').appendChild(myProgess.element); // add it to the page
@@ -28,7 +36,7 @@ Don't forget to include [progress.css](https://github.com/jheytompkins/progress/
 
 Refer to the [demo](http://jsfiddle.net/T5P44/1/) or message me if you're stuck :)
 
-## API
+## api
 
 ###setProgress(number progress)
 
@@ -37,6 +45,10 @@ Set the progress of the line by providing a number(percent) of the line to fill.
 ###setColor(string color)
 
 Set the color of the progress line by providing a string, either supported color name such as  `red` or hexidecimal value such as `#0000FF`. By default the progress line is set to green.
+
+##contributions
+
+and suggestions are of course welcome :)
 
 ## License
 
