@@ -50,6 +50,6 @@ Set the color of the progress line by providing a string, either supported color
 
 and suggestions are of course welcome :)
 
-## License
+## license
 
   MIT
