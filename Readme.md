@@ -10,7 +10,7 @@ A demo of progress can be seen [here](http://jsfiddle.net/T5P44/1/).
 
   Install with [component(1)](http://component.io):
 
-    $ component install jheytompkins/progress
+    $ component install jh3y/progress
 
 ## usage
 Use with or without [component package manager](https://github.com/component/component).
@@ -22,7 +22,7 @@ Simply create your progress line and append its element to a container of your c
 	document.querySelector('.someContainer').appendChild(myProgess.element); // add it to the page
 	myProgress.setProgress(5); // set it to 5% just to get it started.
 
-Don't forget to include [progress.css](https://github.com/jheytompkins/progress/blob/master/progress.css)!
+Don't forget to include [progress.css](https://github.com/jh3y/progress/blob/master/progress.css)!
 
 Refer to the [demo](http://jsfiddle.net/T5P44/1/) or message me if you're stuck :)
 ###use without component package manager
@@ -32,7 +32,7 @@ Simply create your progress line and append its element to a container of your c
 	document.querySelector('.someContainer').appendChild(myProgess.element); // add it to the page
 	myProgress.setProgress(5); // set it to 5% just to get it started.
 
-Don't forget to include [progress.css](https://github.com/jheytompkins/progress/blob/master/progress.css)!
+Don't forget to include [progress.css](https://github.com/jh3y/progress/blob/master/progress.css)!
 
 Refer to the [demo](http://jsfiddle.net/T5P44/1/) or message me if you're stuck :)
 
