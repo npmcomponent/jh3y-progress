@@ -1,3 +1,4 @@
+*This repository is a mirror of the [component](http://component.io) module [jh3y/progress](http://github.com/jh3y/progress). It has been modified to work with NPM+Browserify. You can install it using the command `npm install npmcomponent/jh3y-progress`. Please do not open issues or send pull requests against this repo. If you have issues with this repo, report it to [npmcomponent](https://github.com/airportyh/npmcomponent).*
 # progress
 
   A very minimal progress line component much like seen in modern UIs. Compatible with [component package manager](https://github.com/component/component).

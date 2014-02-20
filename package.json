@@ -1,0 +1,12 @@
+{
+  "name": "jh3y-progress",
+  "description": "A progress line component.",
+  "version": "0.0.1",
+  "keywords": [],
+  "main": "index.js",
+  "styles": [
+    "progress.css"
+  ],
+  "dependencies": {},
+  "license": "MIT"
+}
